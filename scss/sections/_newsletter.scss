@@ -1,0 +1,60 @@
+.newsletter {
+  margin-top: 200px;
+  background: #e0f6f1;
+  margin-bottom: 50px;
+}
+.ends {
+  display: flex;
+  flex-direction: row;
+  .texts {
+    margin-top: 83px;
+    margin-left: 100px;
+    padding-right: 150px;
+    h3 {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 85px;
+      letter-spacing: 0.05em;
+
+      color: #07484a;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      width: 600px;
+      color: #07484a;
+    }
+    .gmail {
+      background: #e0f6f1;
+      padding: 20px;
+      margin-top: 50px;
+      border: none;
+    }
+    .btn-ends {
+      padding: 20px 24px;
+      width: 250px;
+      height: 68px;
+      background: #70908b;
+      border-radius: 6px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 50px;
+      color: #fdfbf8;
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+    .ends{
+        flex-direction: column;
+    }
+}
