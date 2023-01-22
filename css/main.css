@@ -59,6 +59,22 @@
 
 .loader:before {
   animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes loader {
@@ -974,3 +990,4 @@ a {
 .two {
   background: #F9D9DA;
 }/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
