@@ -13,19 +13,16 @@
 @import "./layout/forms";
 @import "./layout/header";
 
-@import "./sections/chooseCar";
-@import "./sections/communityCarousel";
+@import "./sections/benefit";
+@import "./sections/newsletter";
 @import "./sections/hero";
-@import "./sections/master";
-@import "./sections/project";
-@import "./sections/service";
+@import "./sections/our";
+@import "./sections/popular";
+@import "./sections/special";
+@import "./sections/testimonials";
 
 @import "./media/media\(1200px\)";
 @import "./media/media\(960px\)";
 @import "./media/media\(760px\)";
 @import "./media/media\(480px\)";
 @import "./media/media\(320px\)";
-
-@import "./pages/home.scss";
-
-
