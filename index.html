@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,60 +13,131 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
     <link rel="manifest" href="favicon/site.webmanifest" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="loader_bg">
-      <div class="loader"></div>
+        <div class="loader"></div>
     </div>
 
     <header>
-      <div class="container"></div>
+        <div class="container">
+            <nav class="navbar">
+                <div class="brand-title">
+                    <a href="#"><img src="./images/Logo.png" alt="logo" /></a>
+                </div>
+                <div style="text-align: center;">
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                </div>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-icons">
+                    <a href="#"><img src="./images/search.png" alt="search" /></a>
+                    <a href="#"><img src="./images/card.png" alt="card" /></a>
+                    <button id="myBtn" class="btn1" class="navbar-icons__profile">
+                        <img src="./images/profile.png" alt="profile" />
+                    </button>
+                    <div style="padding: 200px 20px;" id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-header__text">login</h3>
+                                <span class="close">&times;</span>
+                            </div>
+                            <h3 class="modal__title">Login</h3>
+                            <form class="form" action="https://echo.htmlacademy.ru/ " method="post" target="_blank">
+                                <div class="password">
+                                    <img class="input-pic" src="./images/user.png" alt="user" />
+                                    <input class="input input1" required type="text" name="username" id="username"
+                                        placeholder="User Name" />
+                                </div>
+                                <div class="password" style="position: relative;">
+                                    <div class="password passwordError">
+                                        <img class="input-pic" src="./images/password.png" alt="password" />
+                                        <input maxlength="15" class="input input2" type="password" name="password"
+                                            id="password" placeholder="Password" />
+                                        <img class="eye" src="./images/eye.png" alt="show" id="togglePassword" />
+                                    </div>
+                                    <span class="error"></span>
+                                </div>
+                                <!-- <div class="send"> -->
+                                    <button type="submit" class="btn1 login">Log In</button>
+                                <!-- </div> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="intro-section">
+                <h2 class="intro-section__title">
+                    Exclusive Deals of <br />
+                    Furniture Collection
+                </h2>
+                <p class="intro-section__desc">
+                    Explore different categories. Find the best deals.
+                </p>
+                <button class="intro-section__btn">Shop Now</button>
+            </section>
+        </div>
     </header>
 
     <main class="main">
-      <section class="hero">
-        <div class="container"></div>
-      </section>
+        <section class="hero">
+            <div class="container"></div>
+        </section>
 
-      <section class="popular">
-        <div class="container"></div>
-      </section>
-      <section class="special">
-        <div class="container"></div>
-      </section>
-      <section class="our">
-        <div class="container"></div>
-      </section>
-      <section class="benefits">
-        <div class="container"></div>
-      </section>
-      <section class="testimonials">
-        <div class="container"></div>
-      </section>
-      <section class="newsletter">
-        <div class="container"></div>
-      </section>
+        <section class="popular">
+            <div class="container"></div>
+        </section>
+        <section class="special">
+            <div class="container"></div>
+        </section>
+        <section class="our">
+            <div class="container"></div>
+        </section>
+        <section class="benefits">
+            <div class="container"></div>
+        </section>
+        <section class="testimonials">
+            <div class="container"></div>
+        </section>
+        <section class="newsletter">
+            <div class="container"></div>
+        </section>
     </main>
     <footer>
-      <div class="container"></div>
+        <div class="container"></div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.js"></script>
     <script src="./js/corusel.js"></script>
     <script>
-      setTimeout(function () {
-        $(".loader_bg").fadeToggle();
-      }, 300);
+        setTimeout(function () {
+            $(".loader_bg").fadeToggle();
+        }, 300);
     </script>
     <script>
-      var loader = document.querySelector(".loader");
+        var loader = document.querySelector(".loader");
 
-      window.addEventListener("load", vanish);
-      function vanish() {
-        loader.classList.add("dissapear");
-      }
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("dissapear");
+        }
     </script>
-  </body>
+    <script src="./js/main.js"></script>
+</body>
+
 </html>
