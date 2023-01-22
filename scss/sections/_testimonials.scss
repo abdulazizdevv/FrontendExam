@@ -1,0 +1,70 @@
+.testimonials {
+  h2 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    text-align: center;
+    margin-top: 100px;
+    color: #07484a;
+  }
+  p {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #07484a;
+  }
+}
+.test {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .psudo {
+    height: 450px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: url("../../images/testimonial.png");
+    background-repeat: no-repeat;
+  }
+  p {
+    max-width: 800px;
+    text-align: left;
+  }
+  .experience {
+    display: flex;
+    align-items: center;
+    p {
+      margin-top: 90px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: #07484a;
+    }
+  }
+}
+.vector {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.one {
+  background: #e0eff6;
+}
+.two{
+    background: #F9D9DA;
+
+}

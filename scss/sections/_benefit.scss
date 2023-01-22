@@ -1,0 +1,82 @@
+.benefits {
+  margin-top: 100px;
+  background: #e0eff6;
+  &-txt {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    padding-top: 100px;
+    color: #07484a;
+  }
+  .all-cards {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    padding-bottom: 110px;
+  }
+  .first {
+    p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+
+      color: #07484a;
+    }
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    img {
+      background-color: #eeebff;
+    }
+    text-align: center;
+  }
+  .second {
+    p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+
+      color: #07484a;
+    }
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    img {
+      background-color: #eeebff;
+    }
+    text-align: center;
+  }
+  .third {
+    p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+
+      color: #07484a;
+    }
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    img {
+      background-color: #eeebff;
+    }
+    text-align: center;
+  }
+}
