@@ -1,0 +1,318 @@
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding: 10px;
+  max-width: 600px;
+  width: 100%;
+  height: 66px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+}
+
+.search__form__icon {
+  cursor: pointer;
+}
+
+.search__form__input {
+  outline: none;
+  margin-left: 30px;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.search__form ::-webkit-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.choose {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.choose-down {
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 387px;
+  height: 433px;
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+
+.card:hover {
+  background-color: #299764 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card:hover h3,
+.card:hover h6,
+.card:hover p {
+  color: white;
+}
+
+.card:hover .card-img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(104%) contrast(107%);
+          filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(104%) contrast(107%);
+}
+
+.cars__List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.view {
+  margin-top: 40px;
+  padding: 18px 30px;
+  width: 173px;
+  height: 58px;
+  margin: 0 auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: #299764;
+  border-radius: 100px;
+}
+
+.Btns {
+  text-align: center;
+}
+
+.cards__service {
+  margin-top: 160px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+
+.cards p {
+  max-width: 684px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.cards__all {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.cards__all__one {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 590px;
+  height: 216px;
+  background: #f5f5f5;
+  border-radius: 20px;
+}
+
+.cards__all__one:hover {
+  background-color: #299764 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cards__all__one:hover p {
+  color: white;
+}
+
+.cards__all__one:hover .icons {
+  -webkit-filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(500%) contrast(107%);
+          filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(500%) contrast(107%);
+}
+
+.cards__all__one .book {
+  width: 287px;
+  height: 78px;
+  margin-left: 32px;
+  padding-top: 40px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.cards__all__one .Complete {
+  max-width: 354px;
+  height: 48px;
+  margin-left: 32px;
+  margin-top: 50px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.cards__all__one .icons {
+  margin-top: 50px;
+  margin-right: 45px;
+  width: 50px;
+  height: 42px;
+}
+
+.big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 160px;
+  max-width: 1200px;
+  height: 500px;
+  background: #ffffff;
+  border: 1.5px solid #e5e7ea;
+  border-radius: 20px;
+}
+
+.big__txt {
+  margin: 40px 32px;
+}
+
+.big__txt .car {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.big__txt .text {
+  max-width: 590px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.big__txt .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 94px;
+  gap: 10px;
+}
+
+.big__txt .category__box1 {
+  max-width: 200px;
+  height: 160px;
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+
+.big__txt .category__box1:hover {
+  background-color: #299764 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.big__txt .category__box1:hover p {
+  color: white;
+}
+
+.big__txt .category__box1:hover .chemical {
+  -webkit-filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(500%) contrast(107%);
+          filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(357deg) brightness(500%) contrast(107%);
+}
+
+.big__txt .category__box1 .every {
+  margin: 30px 15px;
+}
+
+.big__txt .category__box1 .chemical {
+  margin-top: 24px;
+  margin-left: 156px;
+}
+
+.big__txt .category__box1 .alls {
+  margin-top: 56px;
+}
+
+.big__txt .category__box1 .we {
+  margin-top: 32px;
+}
+
+.big .ellips {
+  margin-top: 30px;
+  background-image: url("../../images/Ellipse.png");
+  background-size: cover;
+  background-size: 300px 300px;
+  background-position-x: 50px;
+  background-repeat: no-repeat;
+}
+
+.big .ellips .master {
+  max-width: 386px;
+  width: 100%;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index-two.css.map */
