@@ -1,90 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="./css/main.css">
-</head>
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
 
-<body>
+  <body>
     <div class="loader_bg">
-        <div class="loader"></div>
-      </div>
+      <div class="loader"></div>
+    </div>
 
-      <header>
-        <div class="container">
-
-        </div>
+    <header>
+      <div class="container"></div>
     </header>
 
     <main class="main">
-        <section class="hero">
-            <div class="container">
+      <section class="hero">
+        <div class="container"></div>
+      </section>
 
-            </div>
-        </section>
-
-        <section class="popular">
-            <div class="container">
-
-            </div>
-        </section>
-        <section class="special">
-            <div class="container">
-
-            </div>
-        </section>
-        <section class="our">
-            <div class="container">
-
-            </div>
-        </section>
-        <section class="benefits">
-            <div class="container">
-
-            </div>
-        </section>
-        <section class="testimonials">
-            <div class="container">
-
-            </div>
-        </section>
-        <section class="newsletter">
-            <div class="container">
-
-            </div>
-        </section>
+      <section class="popular">
+        <div class="container"></div>
+      </section>
+      <section class="special">
+        <div class="container"></div>
+      </section>
+      <section class="our">
+        <div class="container"></div>
+      </section>
+      <section class="benefits">
+        <div class="container"></div>
+      </section>
+      <section class="testimonials">
+        <div class="container"></div>
+      </section>
+      <section class="newsletter">
+        <div class="container"></div>
+      </section>
     </main>
     <footer>
-        <div class="container">
-
-        </div>
+      <div class="container"></div>
     </footer>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.js"></script>
     <script src="./js/corusel.js"></script>
     <script>
-        setTimeout(function () {
-          $(".loader_bg").fadeToggle();
-        }, 3000);
-      </script>
-       <script>
-        var loader = document.querySelector(".loader")
-    
-        window.addEventListener("load", vanish);
-        function vanish(){
-          loader.classList.add("dissapear");
-        }
-      </script> 
-</body>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 3000);
+    </script>
+    <script>
+      var loader = document.querySelector(".loader");
 
-
+      window.addEventListener("load", vanish);
+      function vanish() {
+        loader.classList.add("dissapear");
+      }
+    </script>
+  </body>
 </html>
