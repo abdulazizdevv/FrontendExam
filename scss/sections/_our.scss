@@ -16,12 +16,7 @@ align-self: stretch;
 flex-grow: 0;
 margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-  .our_hd{
-font-size: 24px;
 
-  }
-    }
 .our_corusel-left{
     // position: absolute;
     // left: 0;
@@ -82,6 +77,16 @@ flex-grow: 0
     justify-content: space-between;
     gap: 10px;
 }
+@media screen and (max-width: 768px) {
+    .our_hd{
+  font-size: 24px;
+  
+    }
+   .our_corusel{
+    flex-direction: column;
+    grid-template: 20px;
+   } 
+      }
 .our_corusel-right{
     width: 70%;
 }

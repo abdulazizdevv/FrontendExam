@@ -18,16 +18,12 @@ $('.our_corusel-box').slick({
   autoplay:true
 });
 
-  $('.corusel_sliks-container').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    // slidesToScroll: 1,
-    centerMode: true,
-    variableWidth: true,
-    autoplay:true
-  });
+$('.test_corusel').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+});
 
   // $('.our_corusel-box').slick({
   //   dots: true,

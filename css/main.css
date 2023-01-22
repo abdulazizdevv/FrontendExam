@@ -10,6 +10,24 @@
   padding: 0 75px;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 10px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 768px;
+    padding: 0 5px;
+  }
+}
 li {
   list-style: none;
 }
@@ -67,22 +85,6 @@ a {
 
 .loader:before {
   animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
-@-webkit-keyframes loader {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
 }
 
 @keyframes loader {
@@ -469,6 +471,7 @@ input {
   line-height: 85px;
   letter-spacing: 0.05em;
   color: #07484a;
+  text-align: center;
 }
 .ends .texts p {
   font-family: "Roboto";
@@ -476,7 +479,7 @@ input {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  width: 600px;
+  max-width: 600px;
   color: #07484a;
 }
 .ends .texts .gmail {
@@ -504,6 +507,23 @@ input {
 @media screen and (max-width: 980px) {
   .ends {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .newsletter {
+    margin-top: 100px;
+    background: #e0f6f1;
+    margin-bottom: 40px;
+  }
+  .ends h3 {
+    font-size: 24px !important;
+    line-height: 45px !important;
+    max-width: 200px;
+  }
+  .btn-ends {
+    padding: 10px 4px;
+    width: 150px !important;
+    margin-top: 30px;
   }
 }
 .hero {
@@ -766,11 +786,6 @@ input {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
-  .our_hd {
-    font-size: 24px;
-  }
-}
 .our_corusel-left {
   display: flex;
   flex-direction: column;
@@ -832,6 +847,15 @@ input {
   gap: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .our_hd {
+    font-size: 24px;
+  }
+  .our_corusel {
+    flex-direction: column;
+    grid-template: 20px;
+  }
+}
 .our_corusel-right {
   width: 70%;
 }
@@ -1195,8 +1219,6 @@ a {
   height: 500px;
   width: 800px;
   object-fit: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .testimonials h2 {
@@ -1222,7 +1244,7 @@ a {
 
 .test {
   margin-top: 100px;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1241,6 +1263,7 @@ a {
 .test .experience {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .test .experience p {
   margin-top: 90px;
@@ -1252,6 +1275,26 @@ a {
   color: #07484a;
 }
 
+@media screen and (max-width: 768px) {
+  .psudo {
+    height: 273px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .psudo {
+    height: 273px;
+    width: 320px;
+  }
+  .experience p {
+    margin-top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+  }
+}
 .vector {
   width: 40px;
   height: 40px;
@@ -1268,5 +1311,3 @@ a {
 .two {
   background: #F9D9DA;
 }/*# sourceMappingURL=main.css.map */
-/*# sourceMappingURL=main.css.map */
-/*# sourceMappingURL=main.css.map */
