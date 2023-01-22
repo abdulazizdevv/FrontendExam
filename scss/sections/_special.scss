@@ -54,8 +54,6 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 25px;
-      /* identical to box height */
-
       color: #fdfbf8;
     }
   }
@@ -68,8 +66,6 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 115%;
-    /* or 28px */
-
     letter-spacing: -0.02em;
 
     color: #07484a;
@@ -98,7 +94,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 115%;
-  /* identical to box height, or 21px */
 
   letter-spacing: -0.02em;
 
@@ -112,7 +107,6 @@
   margin-top: -15px;
   margin-top: 30px;
   display: flex;
-  //   flex-direction: column;
 
   & img:nth-child(1) {
     width: 240px;

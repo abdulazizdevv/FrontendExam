@@ -469,7 +469,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height */
   color: #fdfbf8;
 }
 
@@ -483,7 +482,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 115%;
-  /* or 28px */
   letter-spacing: -0.02em;
   color: #07484a;
 }
@@ -510,7 +508,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 115%;
-  /* identical to box height, or 21px */
   letter-spacing: -0.02em;
   color: #000000;
   margin-top: 25px;
