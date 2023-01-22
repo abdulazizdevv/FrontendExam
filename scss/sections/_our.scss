@@ -1,0 +1,140 @@
+
+
+
+.our_hd{
+    max-width: 327px;
+// height: 116px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120.6%;
+color: #FDFBF8;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .our_hd{
+font-size: 24px;
+
+  }
+    }
+.our_corusel-left{
+    // position: absolute;
+    // left: 0;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+// padding: 0px 100px 0px 150px;
+gap: 32px;
+max-width: 577px;
+background: #70908B;
+border-radius: 0px 16px 16px 0px;
+flex: none;
+order: 0;
+flex-grow: 1;
+height: 503px;
+p{
+    max-width: 327px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 95.6%;
+color: #FDFBF8;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+}
+.our_more{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 95.6%;
+color: #FDFBF8;
+flex: none;
+order: 0;
+flex-grow: 0
+}
+.our_btns{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left_our-btn{
+    padding: 15px ;
+    border-radius: 50%;
+    font-size: 18px;
+    border: none;
+}
+
+.our_corusel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.our_corusel-right{
+    width: 70%;
+}
+.our_corusel-info{
+    max-width: 382px;
+    min-width: 320px;
+height: 537px;
+filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.1));
+border-radius: 10px;
+order: 0;
+flex-grow: 0;
+position: relative;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+&:hover{
+    .our_corusel-btn{
+        display: block;
+    }
+}
+}
+
+.our_corusel-btn{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 95.6%;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 20px 24px;
+position: absolute;
+bottom: 40px;
+bottom: none;
+left: 91px;
+background: #FFFFFF;
+border-radius: 6px;
+display: none;
+}
+.our_corusel-bg1{
+    background-image: url(../../images/our1.png);
+}
+.our_corusel-bg2{
+    background-image: url(../../images/our2.png);
+}
+.our_corusel-bg3{
+    background-image: url(../../images/our3.png);
+    background-size: cover;
+}
+.our_corusel-box{
+display: flex;
+
+}

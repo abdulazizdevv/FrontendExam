@@ -1,21 +1,52 @@
-$('.corusel_sliks-container').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+// $('.our_corusel-box').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     centerPadding: '20px',
+//     autoplay: true,
+//     autoplaySpeed: 2000,
+//     dots: true,
+//   });
+
+$('.our_corusel-box').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  // slidesToScroll: 1,
+  centerMode: true,
+  variableWidth: true,
+  autoplay:true
+});
+
+  $('.corusel_sliks-container').slick({
     dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    // slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: true,
+    autoplay:true
   });
 
- 
-  $('.community-corusels').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    centerMode: true,
-    centerPadding: '20px',
-    variableWidth: true
-  });
+  // $('.our_corusel-box').slick({
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 300,
+  //   slidesToShow: 1,
+  //   centerMode: true,
+  //   variableWidth: true
+  // });
+
+  // $('.corusel_sliks-container').slick({
+  //   dots: true,
+  //   infinite: false,
+  //   speed: 300,
+  //   slidesToShow: 1,
+  //   centerMode: true,
+  //   centerPadding: '20px',
+  //   variableWidth: true
+  // });
 
   $('.project__corusel_toleft').slick({
     autoplay:true,
@@ -43,4 +74,8 @@ $('.corusel_sliks-container').slick({
       }
     ]
   });
+
+  const elBtn =document.querySelector('.our_corusel-btn')
+
+  const elOurInfo = document.querySelector(".our_corusel-info")
  
