@@ -1,0 +1,132 @@
+.special {
+  margin-top: 200px;
+  &-page {
+    margin-bottom: 103px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    color: #07484a;
+  }
+  &-all {
+    display: flex;
+  }
+  .left-room {
+    // display: flex;
+    .card {
+      display: flex;
+    }
+    .larkin {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 49px;
+      /* identical to box height */
+      margin-top: 20px;
+      color: #07484a;
+      margin-bottom: 15px;
+    }
+    .price {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 115%;
+      /* or 32px */
+      margin-top: 15px;
+      letter-spacing: -0.02em;
+
+      color: #07484a;
+    }
+    .add {
+      margin-left: 270px;
+      margin-top: 25px;
+      padding: 16px 24px;
+      width: 196px;
+      height: 66px;
+      background: #70908b;
+      border-radius: 10px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      /* identical to box height */
+
+      color: #fdfbf8;
+    }
+  }
+  .right-room {
+    margin-left: 100px;
+  }
+  .desc {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 115%;
+    /* or 28px */
+
+    letter-spacing: -0.02em;
+
+    color: #07484a;
+  }
+  .txt {
+    height: 130px;
+    margin-top: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+    /* or 28px */
+
+    letter-spacing: -0.02em;
+
+    color: #07484a;
+  }
+}
+.more {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 115%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  margin-top: 25px;
+  width: 101.02px;
+  height: 21px;
+}
+
+.img-pic {
+  margin-top: -15px;
+  margin-top: 30px;
+  display: flex;
+  //   flex-direction: column;
+
+  & img:nth-child(1) {
+    width: 240px;
+    height: 140px;
+  }
+}
+a {
+  text-decoration: none;
+}
+.mark {
+  margin-left: 10px;
+}
+#show .package {
+  height: 500px;
+  width: 800px;
+  object-fit: cover;
+}
